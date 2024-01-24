@@ -1,3 +1,9 @@
+import Map from "@/components/Map"
+
 export default function Home() {
-  return <div>Hello World</div>
+  return (
+    <div className="w-screen h-screen">
+      <Map />
+    </div>
+  )
 }
