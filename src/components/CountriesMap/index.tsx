@@ -22,7 +22,7 @@ const CountriesMap: React.FC = () => {
     )
   }, [])
 
-  return <div id="mapid" style={{ height: "100vh" }}></div>
+  return <div id="mapid"></div>
 }
 
 export default CountriesMap
